@@ -4,6 +4,7 @@ A High-Performance Native Framework for Network Threat Mitigation
 Stealth Sentinel is an advanced Intrusion Prevention System (IPS) engineered to provide real-time Deep Packet Inspection (DPI) across multiple network layers. Built natively in C++ and Python, it moves beyond traditional firewalls by inspecting packet payloads for malicious strings like SQL Injection, XSS, and Reverse Shells.
 
 📊 Real-World Performance Results
+
 During live testing in a Kali Linux environment, the system demonstrated commercial-grade efficacy:
 Total Threats Detected: 16,545+ events captured and logged to a central MySQL database.
 Attackers Blocked: 702 unique attackers successfully identified and mitigated via iptables and MAC-level filtering.
